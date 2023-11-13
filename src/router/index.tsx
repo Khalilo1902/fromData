@@ -3,7 +3,7 @@ import { Page404 } from "../pages/Page404";
 import { PageAbout } from "../pages/PageAbout";
 import {  PageSimpleFrom } from "../pages/PageSimpleFrom";
 import App from "../App";
-import { PageInfo } from "../pages/PageInfo";
+import { PageEmployees } from "../pages/PageEmployees";
 
 const router = createBrowserRouter([
 	{
@@ -16,8 +16,8 @@ const router = createBrowserRouter([
 				element: <PageSimpleFrom />,
 			},
 			{
-				path: "info",
-				element: <PageInfo />,
+				path: "/employees",
+				element: <PageEmployees />,
 			},
 			{
 				path: "about",
@@ -25,7 +25,7 @@ const router = createBrowserRouter([
 			},
 			{
 				path: "/",
-				element: <Navigate to="/welcome" replace />,
+				element: <Navigate to="/simple-form" replace />,
 			},
 		],
 	},

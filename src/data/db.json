@@ -1,3 +1,47 @@
 {
-    "employees":[]
+  "employees": [
+    {
+      "firstName": "James",
+      "lastName": "Tester",
+      "age": 55,
+      "hireDate": "2020-01-01",
+      "employeeNumber": "D-8811",
+      "id": 1
+    },
+    {
+      "firstName": "James",
+      "lastName": "Tester",
+      "age": 55,
+      "hireDate": "2020-01-01",
+      "employeeNumber": "D-8811",
+      "id": 2
+    },
+    {
+      "firstName": "Khalil",
+      "lastName": "sss",
+      "age": "34",
+      "hireDate": "2023-11-09",
+      "employeeNumber": "M-8123",
+      "notes": "aaa",
+      "id": 3
+    },
+    {
+      "firstName": "Khalil",
+      "lastName": "Haouas",
+      "age": "37",
+      "hireDate": "2023-11-14",
+      "employeeNumber": "M-8123",
+      "notes": "!!!!!!",
+      "id": 4
+    },
+    {
+      "firstName": "Khalil",
+      "lastName": "Haouas",
+      "age": "37",
+      "hireDate": "2023-11-13",
+      "employeeNumber": "M-8123",
+      "notes": "!!!!!!!!!",
+      "id": 5
+    }
+  ]
 }

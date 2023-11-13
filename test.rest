@@ -1,0 +1,16 @@
+@url = http://localhost:4801
+ 
+### GET ALL EMPLOYEES
+{{url}}/employees
+ 
+### ADD AN EMPLOYEE
+POST {{url}}/employees
+content-type: application/json
+ 
+{
+    "firstName": "James",
+    "lastName": "Tester",
+    "age": 55,
+    "hireDate": "2020-01-01",
+    "employeeNumber": "D-8811"
+}
