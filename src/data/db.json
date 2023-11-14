@@ -42,6 +42,15 @@
       "employeeNumber": "M-8123",
       "notes": "!!!!!!!!!",
       "id": 5
+    },
+    {
+      "firstName": "Khalil",
+      "lastName": "Haouas",
+      "age": 3,
+      "hireDate": "2023-11-02",
+      "employeeNumber": "M-8123",
+      "notes": " vf",
+      "id": 6
     }
   ]
 }

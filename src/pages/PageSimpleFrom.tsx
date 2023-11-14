@@ -1,6 +1,6 @@
 import axios, { AxiosResponse } from "axios";
 import { FormEvent } from "react";
-import { Navigate, useNavigate } from "react-router-dom";
+import {useNavigate } from "react-router-dom";
 import { IEmployee } from "../interface";
 
 export const PageSimpleFrom = () => {
@@ -36,6 +36,7 @@ export const PageSimpleFrom = () => {
 
   return (
     <form action="" onSubmit={handleFormSubmit} className=" bg-slate-300">
+     
       <fieldset className=" border border-slate-500 p-4 rounded">
         <legend>New Employee</legend>
 

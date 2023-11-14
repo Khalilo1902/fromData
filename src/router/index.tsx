@@ -1,9 +1,10 @@
 import { Navigate, createBrowserRouter } from "react-router-dom";
 import { Page404 } from "../pages/Page404";
-import { PageAbout } from "../pages/PageAbout";
+
 import {  PageSimpleFrom } from "../pages/PageSimpleFrom";
 import App from "../App";
 import { PageEmployees } from "../pages/PageEmployees";
+import { PageStateForm } from "../pages/PageStateForm";
 
 const router = createBrowserRouter([
 	{
@@ -20,8 +21,8 @@ const router = createBrowserRouter([
 				element: <PageEmployees />,
 			},
 			{
-				path: "about",
-				element: <PageAbout />,
+				path: "state-form",
+				element: <PageStateForm />,
 			},
 			{
 				path: "/",
